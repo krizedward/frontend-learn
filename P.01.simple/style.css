@@ -3,6 +3,9 @@
     padding: 0;
 }
 
-h1 {
-    color: aqua;
+h1 { color: aqua; }
+
+.images {
+    width: 100px;
+    height: 100px;
 }
