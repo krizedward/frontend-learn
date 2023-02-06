@@ -1,7 +1,15 @@
-* { margin: 0; padding: 0; }
+* { 
+  margin: 0; 
+  padding: 0; 
+}
 
-body { background: white }
-h1 { color: aqua; }
+body { 
+  background: white 
+}
+
+h1 { 
+  color: aqua; 
+}
 
 @media only screen and (max-width: 400px) {
   /* mobile */
