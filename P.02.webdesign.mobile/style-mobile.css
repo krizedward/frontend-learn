@@ -1,20 +1,47 @@
 /* MEMASUKAN FONT */
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
+
 * {
   margin : 0px;
   padding: 0px;
 }
 
-body {
+html, body {
   font-family: 'Poppins';
   font-size: 24px;
+  overflow: hidden;
 }
+
+.loader {
+  position: absolute;
+  z-index: 1000;
+  background: url(https://camo.githubusercontent.com/c758256c3cd30a1a6aaaa3081c6d9464bd4d3f73/687474703a2f2f692e696d6775722e636f6d2f566568395a4e4f2e676966) 50% 50% no-repeat white;
+  width: 25%;
+  height: 25%;
+  top: 100;
+  left: 100;
+}
+
+/* https://codepen.io/MacEvelly/pen/BoZqoO */
 
 @media only screen and (max-width: 400px) {
     /* mobile */
     .wrapper {
       width: 320px;
+    }
+    
+    .splash {
+      width: 380px;
+      height: 800px;
+      background: #EA8FEA;
+      opacity: 1;
+    }
+    
+    .splash p.intro {
+      background: yellow;
+      opacity: 0.3;
     }
   
     .header {
